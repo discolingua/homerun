@@ -2,7 +2,8 @@
   "resources": [
     {"id":{"name":"oDiamond","path":"objects/oDiamond/oDiamond.yy",},"order":1,},
     {"id":{"name":"sprDiamond","path":"sprites/sprDiamond/sprDiamond.yy",},"order":0,},
-    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
+    {"id":{"name":"oBatter","path":"objects/oBatter/oBatter.yy",},"order":2,},
+    {"id":{"name":"sprBatter","path":"sprites/sprBatter/sprBatter.yy",},"order":1,},
     {"id":{"name":"oHitGauge","path":"objects/oHitGauge/oHitGauge.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
