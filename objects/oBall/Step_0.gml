@@ -5,15 +5,18 @@ if ( fieldY > fieldDepth ) {
 	instance_destroy();
 } else {
 
-	fieldY += ballSpeed;
-	ballDepth = (fieldY / fieldDepth) * fieldHeight;
+	
+	if (!isPaused) {
+		fieldY += ballSpeed;
+	}
+	ballDepth = (fieldY / fieldDepth) * pixelHeight;
 	transY = (ballDepth * aH) /
-			(bH + ballDepth * (fieldWidthA - fieldWidthB));
+			(bH + ballDepth * (pixelWidthA - pixelWidthB));
 
 	y = transY;
 	
-	image_xscale = fieldY / fieldDepth;
-	image_yscale = fieldY / fieldDepth;
+	image_xscale = fieldY / fieldDepth / 2;
+	image_yscale = fieldY / fieldDepth / 2;
 
 
 
