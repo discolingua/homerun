@@ -6,10 +6,15 @@ if ( fieldY > fieldDepth ) {
 } else {
 
 	fieldY += ballSpeed;
-	transY = (fieldY * aH) /
-			(bH + fieldY * (fieldWidthA - fieldWidthB));
+	ballDepth = (fieldY / fieldDepth) * fieldHeight;
+	transY = (ballDepth * aH) /
+			(bH + ballDepth * (fieldWidthA - fieldWidthB));
 
-//	show_debug_message(string(transY));
+	y = transY;
+	
+	image_xscale = fieldY / fieldDepth;
+	image_yscale = fieldY / fieldDepth;
+
 
 
 }

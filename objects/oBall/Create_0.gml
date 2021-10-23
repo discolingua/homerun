@@ -4,16 +4,16 @@
 //
 // 60mph = 1720ips  multiply by 17.6
 
-pitchSpeed = 5 * 17.6;
+//pitchSpeed = 5 * 17.6;
 
-ballSpeed = pitchSpeed / 30;
+// ballSpeed = pitchSpeed / 30;
+ballSpeed = 10;
 
-fieldY = 3000;
+
+ballDepth = 0;
 //fieldY = 6324;
+fieldY = 0;
 
-
-image_xscale = .2;
-image_yscale = .2;
 
 
 global.ballState = "idle";
