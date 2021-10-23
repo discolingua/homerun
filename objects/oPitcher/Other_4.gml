@@ -1,1 +1,0 @@
-global.readyToPitch = true;

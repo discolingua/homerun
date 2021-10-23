@@ -1,23 +1,15 @@
-if (global.ballState == "hit") {
+
 	
-	y -= hitSpeed;
-	
-	if ( y < 0 ) {
-		global.readyToPitch = true;
-		global.ballState = "idle";
-		instance_destroy();
-	}
-	
+if ( fieldY > fieldDepth ) {
+	global.ballState = "idle";
+	instance_destroy();
 } else {
 
-	fieldY -= ballSpeed;
-	x += ballSpeed/5;
-	image_xscale *= 1.01;
-	image_yscale *= 1.01;
+	fieldY += ballSpeed;
+	transY = (fieldY * aH) /
+			(bH + fieldY * (fieldWidthA - fieldWidthB));
 
-	if (y >250) {
-		global.readyToPitch = true;
-		global.ballState = "idle";
-		instance_destroy();
-	}
+//	show_debug_message(string(transY));
+
+
 }
