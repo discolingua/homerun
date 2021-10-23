@@ -5,11 +5,12 @@ if (global.ballState == "hit") {
 	if ( y < 0 ) {
 		global.readyToPitch = true;
 		global.ballState = "idle";
+		instance_destroy();
 	}
 	
 } else {
 
-	y += ballSpeed;
+	fieldY -= ballSpeed;
 	x += ballSpeed/5;
 	image_xscale *= 1.01;
 	image_yscale *= 1.01;
