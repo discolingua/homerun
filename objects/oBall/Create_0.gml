@@ -12,12 +12,12 @@ isPaused = -1;
 
 ballDepth = 0;
 fieldY = 6324;
-global.ballState = "idle";
+//global.ballState = "idle";
 
 fieldDepth = 7050; // inches from hom plate to back fence
 
 pixelHeight = 220;
-pixelWidthA = 15;
+pixelWidthA = 18;
 pixelWidthB = 320;
 aH = pixelWidthA * pixelHeight; // to speed intermediary calculations
 bH = pixelWidthB * pixelHeight;
