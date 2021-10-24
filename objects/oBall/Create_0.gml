@@ -12,11 +12,21 @@ isPaused = -1;
 
 ballDepth = 0;
 fieldY = 6324;
-// fieldY = 0;
-
-
-
 global.ballState = "idle";
+
+fieldDepth = 7050; // inches from hom plate to back fence
+
+pixelHeight = 220;
+pixelWidthA = 15;
+pixelWidthB = 320;
+aH = pixelWidthA * pixelHeight; // to speed intermediary calculations
+bH = pixelWidthB * pixelHeight;
+
+// b width is narrower in left origin example
+// https://github.com/monim67/perspective-vue
+
+
+// PROBABLY NOT NEEDED -----------
 
 //topLeftCornerX = 25;
 //topLeftCornerY = 30;
@@ -27,11 +37,3 @@ global.ballState = "idle";
 //topRightCornerY = 30;
 //bottomRightCornerX = 320;
 //bottomRightCornerY = 220;
-
-fieldDepth = 7050; // inches from hom plate to back fence
-
-pixelHeight = 220;
-pixelWidthA = 100;
-pixelWidthB = 320;
-aH = pixelWidthA * pixelHeight; // to speed intermediary calculations
-bH = pixelWidthB * pixelHeight;

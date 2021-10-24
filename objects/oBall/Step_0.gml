@@ -13,10 +13,12 @@ if ( fieldY > fieldDepth ) {
 	transY = (ballDepth * aH) /
 			(bH + ballDepth * (pixelWidthA - pixelWidthB));
 
+	
+
 	y = transY;
 	
-	image_xscale = fieldY / fieldDepth / 2;
-	image_yscale = fieldY / fieldDepth / 2;
+	image_xscale = transY / pixelHeight;
+	image_yscale = transY / pixelHeight;
 
 
 
