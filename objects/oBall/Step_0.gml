@@ -20,7 +20,10 @@ if ( fieldY > fieldDepth or fieldY < 0 ) {
 	transY = (scaledDepth * aH) /
 			(bH + scaledDepth * (pixelWidthA - pixelWidthB));
 
-	y = transY;
+	scaledHeight = (fieldZ / fieldCeiling) * pixelHeight;
+
+
+	y = transY - scaledHeight;
 	scaleAmount = transY / pixelHeight;
 	
 	image_xscale = scaleAmount;

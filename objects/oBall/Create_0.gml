@@ -12,15 +12,18 @@ isPaused = -1;
 
 ballDepth = 0;
 fieldY = 6324;
-//global.ballState = "idle";
+fieldZ =  30; //  Z unit in inches. Strike zone is 21"-41"
 
 fieldDepth = 7050; // inches from hom plate to back fence
+fieldCeiling = 660; // height of home plate view in inches (for z scaling)
 
-pixelHeight = 220;
-pixelWidthA = 18;
-pixelWidthB = 320;
+
+pixelHeight = 220;  // screen height for scaling
+pixelWidthA = 18;   // width at top of playfield trapezoid
+pixelWidthB = 320;  // width at bottom of playfield trapezoid
 aH = pixelWidthA * pixelHeight; // to speed intermediary calculations
 bH = pixelWidthB * pixelHeight;
+
 
 // b width is narrower in left origin example
 // https://github.com/monim67/perspective-vue
