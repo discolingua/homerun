@@ -15,7 +15,7 @@ fieldY = 6324;
 fieldZ =  30; //  Z unit in inches. Strike zone is 21"-41"
 
 fieldDepth = 7050; // inches from hom plate to back fence
-fieldCeiling = 660; // height of home plate view in inches (for z scaling)
+fieldCeiling = 300; // height of home plate view in inches (for z scaling)
 
 
 pixelHeight = 220;  // screen height for scaling

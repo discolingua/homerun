@@ -24,9 +24,7 @@ if ( fieldY > fieldDepth or fieldY < 0 ) {
 
 
 	y = transY - scaledHeight;
-	scaleAmount = transY / pixelHeight;
+	scaleAmount = transY / pixelHeight / 2;
 	
-	image_xscale = scaleAmount;
-	image_yscale = scaleAmount;
-
+	
 }
