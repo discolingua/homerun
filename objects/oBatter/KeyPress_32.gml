@@ -1,6 +1,6 @@
-if (_counter == 0) {
-	_frame = 0;
-	_counter = timer;
+if (counter == 0) {
+	frame = 0;
+	counter = timer;
 }
 // image_index = _frame;
 show_debug_message("press");

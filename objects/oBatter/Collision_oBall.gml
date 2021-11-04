@@ -1,3 +1,4 @@
-if (_frame > 1 and _frame < 5 and global.ballState = "pitch") {
+if (frame > 1 and frame < 5 and global.ballState = "pitch") {
+	hitFrame = frame;
 	global.ballState = "hit";
 }

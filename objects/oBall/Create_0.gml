@@ -11,7 +11,7 @@ ballSpeed = 10;
 isPaused = -1;
 
 ballDepth = 0;
-fieldY = 6324;
+fieldY = 6324; // ball starts at pitcher's mound
 fieldZ =  30; //  Z unit in inches. Strike zone is 21"-41"
 
 fieldDepth = 7050; // inches from hom plate to back fence

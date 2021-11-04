@@ -1,7 +1,8 @@
 
 // "hit" state should only happens once to send ball outward
 if (global.ballState = "hit") {
-	ballSpeed *= -5;
+	ballSpeed *= -2;
+	fieldZ += 20;
 	global.ballState = "air";
 }
 

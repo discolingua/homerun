@@ -1,6 +1,7 @@
-_counter = 0;
-swingSpeed = .1
-_frame = 0;
-_maxFrames = 5;
+counter = 0;
+swingSpeed = .12;
+frame = 0;
+maxFrames = 5;
+hitFrame = 0;
 
 timer = room_speed * swingSpeed;
